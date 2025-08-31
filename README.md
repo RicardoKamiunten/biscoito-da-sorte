@@ -1,38 +1,37 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Biscoito da Sorte
 
-## Getting Started
+Este projeto foi desenvolvido como parte de um **teste técnico**.  
+O objetivo é criar um aplicativo web que simula um **biscoito da sorte digital**, exibindo frases motivacionais e números sortidos quando o usuário interage ao clicar no biscoito.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias utilizadas
+- [Next.js 14+](https://nextjs.org/) — Framework React moderno
+- [TypeScript](https://www.typescriptlang.org/) — Tipagem estática para maior segurança
+- [Tailwind CSS](https://tailwindcss.com/) — Framework CSS utilitário para estilização rápida
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
+- Exibe frases e números sortidos
+- Layout responsivo (desktop e mobile)
+- Efeitos visuais e animações leves
+- Fácil de personalizar e adicionar novas frases
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Como rodar o projeto localmente
 
-To learn more about Next.js, take a look at the following resources:
+No terminal no local onde deseajar, fará os seguintes passos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório:
+    git clone https://github.com/RicardoKamiunten/biscoito-da-sorte.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Instale as dependências:
+    npm install
 
-## Deploy on Vercel
+3. Execute o servidor de desenvolvimento:
+    npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> a59705e3385c71263e8932c27533306ac36de533
+4. Abra o navegador em:
+    http://localhost:3000
