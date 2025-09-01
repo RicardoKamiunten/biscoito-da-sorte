@@ -22,7 +22,11 @@ O objetivo é criar um aplicativo web que simula um **biscoito da sorte digital*
 
 ## Como rodar o projeto localmente
 
+<<<<<<< HEAD
 No terminal no local onde desejar, siga os seguintes passos:
+=======
+No terminal no local onde desejar, seguir os seguintes passos:
+>>>>>>> e11dcd7b5ea51a62938e38ab844b1cd4e4712772
 
 1. Clone o repositório:
     git clone https://github.com/RicardoKamiunten/biscoito-da-sorte.git
