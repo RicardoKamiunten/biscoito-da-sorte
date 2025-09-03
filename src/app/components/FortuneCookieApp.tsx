@@ -28,7 +28,7 @@ export default function FortuneCookieApp() {
     "O melhor momento para plantar uma árvore foi há 20 anos. O segundo melhor momento é agora."
   ]
 
-  function generateLuckyNumbers(quantity = 6, max = 75): number[] {
+  function generateLuckyNumbers(quantity = 6, max = 99): number[] {
     const set = new Set<number>()
     while (set.size < quantity) {
       const n = Math.floor(Math.random() * max) + 1
@@ -45,7 +45,7 @@ export default function FortuneCookieApp() {
       setIsOpened(true)
       setIsOpening(false)
       const randomText = phrases[Math.floor(Math.random() * phrases.length)]
-      const numbers = generateLuckyNumbers(6, 75)
+      const numbers = generateLuckyNumbers(6, 99)
       setCurrentFortune({ text: randomText, numbers })
     }, 1200)
   }

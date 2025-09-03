@@ -20,7 +20,11 @@ O objetivo é criar um aplicativo web que simula um **biscoito da sorte digital*
 
 ---
 
-## Como rodar o projeto localmente
+## Como rodar o projeto 
+
+Observações:
+
+- Ter instalado o Node.js (https://www.nodejs.tech/pt-br/download)
 
 No terminal no local onde desejar, siga os seguintes passos:
 
